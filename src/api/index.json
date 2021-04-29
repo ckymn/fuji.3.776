@@ -1,32 +1,32 @@
 {
-    "movies": [
-        {
-            "id": 1,
-            "name": "Nomadland",
-            "raiting": 9.3,
-            "description": "LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem",
-            "img": "https://picsum.photos/id/26/200/200"
-        },
-        {
-            "id": 2,
-            "name": "The Father",
-            "raiting": 5.6,
-            "description": "LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem",
-            "img": "https://picsum.photos/id/66/200/200"
-        },
-        {
-            "id": 3,
-            "name": "Minari",
-            "raiting": 8.1,
-            "description": "LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem",
-            "img": "https://picsum.photos/id/40/200/200"
-        },
-        {
-            "id": 4,
-            "name": "Cemil Osta",
-            "raiting": 10.1,
-            "description": "LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem",
-            "img": "https://picsum.photos/id/100/200/200"
-        }
-    ]
+  "movies": [
+    {
+      "id": 1,
+      "name": "Nomadland",
+      "raiting": 9.3,
+      "description": "",
+      "img": "https://picsum.photos/id/26/200/200"
+    },
+    {
+      "id": 2,
+      "name": "The Father",
+      "raiting": 5.6,
+      "description": "LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem",
+      "img": "https://picsum.photos/id/66/200/200"
+    },
+    {
+      "id": 3,
+      "name": "Matrix",
+      "raiting": "2.6",
+      "img": "https://picsum.photos/id/44/200/200",
+      "description": "adfjajfkaldjfklajfakl\nadfajkdf;laj\nasfljadl;f"
+    },
+    {
+      "name": "muhammet",
+      "raiting": "4.5",
+      "img": "https://picsum.photos/id/100/200/200",
+      "description": "asfasfaaaaaaaaa",
+      "id": 4
+    }
+  ]
 }

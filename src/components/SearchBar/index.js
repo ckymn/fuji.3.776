@@ -1,10 +1,7 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 
 export default class index extends Component {
-
-  state={
-    open : false,
-  }
 
   searchHeandle = (e) => {
     e.preventDefault();
@@ -24,9 +21,9 @@ export default class index extends Component {
           ></input>
         </div>
         <div className="col-sm-2">
-          <button className="btn btn-success" type="submit">
+          <Link to="/create" className="btn btn-success" type="submit">
             Create 
-          </button>
+          </Link>
         </div>
       </div>
     );
