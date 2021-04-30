@@ -106,9 +106,8 @@ export default class index extends Component {
               type="submit"
               className="btn btn-danger btn-block"
               value="Add Movie"
-              onClick={this.handleClick}
               onChange={this.onInputChange}
-			  to={"/"}
+		to={"/"}
             >
               Edit Movie
             </Link>
