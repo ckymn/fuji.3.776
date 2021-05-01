@@ -15,7 +15,7 @@ export default class index extends Component {
         {this.props.movie.map((movie,i) => (
           <div className="col-md-4 col-sm-6" key={i}>
             <div className="card mb-4 shadow-sm">
-              <img src={movie.img} className="card-img-top" alt="img1"/>
+              <img src={movie.img} className="card-img-top" alt="img1" style={{width: "auto", height:"300px"}}/>
               <div className="card-body">
                 <h5 className="card-title">{movie.name}</h5>
                 <p className="card-text" style={{height:"150px", width:"auto"}}>
