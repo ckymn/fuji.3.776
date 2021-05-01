@@ -16,6 +16,14 @@ export default class index extends Component {
     });
   };
 
+//Hooks
+/*
+const [form, setForm] = useState({ name:"", raiting:"",description:"",img:""});
+const handleChange = (e) => {
+	setForm({...form, [e.target.name]: e.target.value})
+}
+*/
+
   async componentDidMount() {
     const id = this.props.match.params.id;
     const movie = await axios.get(`http://localhost:3001/movies/${id}`);
