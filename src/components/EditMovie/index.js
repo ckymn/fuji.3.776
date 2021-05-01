@@ -26,7 +26,7 @@ const handleChange = (e) => {
 
   async componentDidMount() {
     const id = this.props.match.params.id;
-    const movie = await axios.get(`http://localhost:3001/movies/${id}`);
+    const movie = await axios.get(`https://my-json-server.typicode.com/ckymn/json-server/movies/${id}`);
 	console.log(movie);
     this.setState({
       name: movie.data.name,

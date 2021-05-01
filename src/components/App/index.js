@@ -18,14 +18,14 @@ export default class index extends Component {
   }
 
   async componentDidMount() {
-    const response = await axios.get(`http://localhost:3001/movies`);
+    const response = await axios.get(`https://my-json-server.typicode.com/ckymn/json-server/movies`);
     this.setState({
       movies: response.data,
     });
   }
 
   deleteMovie = async (movie) => {
-    await axios.delete(`http://localhost:3001/movies/${movie.id}`);
+    await axios.delete(`https://my-json-server.typicode.com/ckymn/json-server/movies/${movie.id}`);
     const newMovie = this.state.movies.filter((i) => i.id !== movie.id);
 
     this.setState({
@@ -40,14 +40,14 @@ export default class index extends Component {
   };
 
   addMovie = async (movie) => {
-    await axios.post(`http://localhost:3001/movies/`, movie);
+    await axios.post(`https://my-json-server.typicode.com/ckymn/json-server/movies/`, movie);
     this.setState(state => ({
       movies: this.state.movies.concat([movie])
     }))
   }
   
   editMovie = async (id, updatedMovie) => {
-    await axios.put(`http://localhost:3001/movies/${id}`, updatedMovie);
+    await axios.put(`https://my-json-server.typicode.com/ckymn/json-server/movies/${id}`, updatedMovie);
   }
 
   render() {
