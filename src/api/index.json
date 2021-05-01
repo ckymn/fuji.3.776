@@ -3,29 +3,29 @@
     {
       "id": 1,
       "name": "Nomadland",
-      "raiting": 9.3,
-      "description": "",
-      "img": "https://picsum.photos/id/26/200/200"
+      "raiting": 7.5,
+      "description": "Nomadland Chloé Zhao'nun senaryosunu yazdığı, yapımcılığını üstlendiği ve yönettiği 2020 Amerikan drama filmidir. Filmde Frances McDormand, kocası öldükten sonra memleketi Nevada'dan ayrılan ve 'evsiz' kalıp, Amerika Birleşik Devletleri'ni dolaşan bir kadın olarak rol alıyor",
+      "img": "https://st3.myideasoft.com/idea/fx/44/myassets/products/764/9781800750302.jpg?revision=1614055014"
     },
     {
       "id": 2,
       "name": "The Father",
       "raiting": 5.6,
-      "description": "LoremLoremLoremLoremLoremLoremLoremLoremLoremLorem",
-      "img": "https://picsum.photos/id/66/200/200"
+      "description": "Baba, Florian Zeller tarafından 2012'de oynadığı Le Père oyununa dayanan ilk yönetmenlik denemesinde ortak yazılan ve yönetilen bir 2020 drama filmidir.",
+      "img": "https://i.ytimg.com/vi/kuhJ0Nr4i60/maxresdefault.jpg"
     },
     {
       "id": 3,
       "name": "Matrix",
       "raiting": "2.6",
-      "img": "https://picsum.photos/id/44/200/200",
-      "description": "adfjajfkaldjfklajfakl\nadfajkdf;laj\nasfljadl;f"
+      "img": "https://upload.wikimedia.org/wikipedia/tr/3/36/Matrix-film.jpg",
+      "description": "Matrix, Wachowski Kardeşlerin yazıp yönettiği bilimkurgu-aksiyon filmi. 1999 yılında gösterime girdi. Filmde Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss ve Hugo Weaving gibi yıldızlar yer almaktadır. Matrix ABD'de 171.479.930 $, ABD dışında 288.900.000 $ olmak üzere toplam 460,379,930 $ hasılat elde etti"
     },
     {
-      "name": "muhammet",
-      "raiting": "4.5",
-      "img": "https://picsum.photos/id/100/200/200",
-      "description": "asfasfaaaaaaaaa",
+      "name": "Minari",
+      "raiting": "7.6",
+      "img": "http://tr.web.img4.acsta.net/c_310_420/pictures/21/01/14/10/32/1863181.jpg",
+      "description": "Minari, Lee Isaac Chung tarafından yazılıp yönetilen bir 2020 Amerikan drama filmidir. Steven Yeun, Han Ye-ri, Alan Kim, Noel Kate Cho, Youn Yuh-jung ve Will Patton rol alıyor.",
       "id": 4
     }
   ]
